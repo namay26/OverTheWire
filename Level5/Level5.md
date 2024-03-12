@@ -3,7 +3,7 @@
 > The password for the next level is stored in the only human-readable file in the inhere directory. Tip: if your terminal is messed up, try the “reset” command.
 ---
 
-To access this challenge, we need to login via ssh using bandit3 as the username and the password obtained in the last round.
+To access this challenge, we need to login via ssh using bandit4 as the username and the password obtained in the last round.
 In this challenge, our aim is to find the only human-readable file which contains the password. Firstly we use `ls` to find a **inhere** directory, when we use `ls` again, we find multuple files. Now, the easiest way to do this is to look at the properties of the file using the `file` command.
 
     bandit4@bandit:~/inhere$ file ./*
