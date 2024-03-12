@@ -3,8 +3,8 @@
 > The password for the next level is stored in /etc/bandit_pass/bandit14 and can only be read by user bandit14. For this level, you don’t get the next password, but you get a private SSH key that can be used to log into the next level. Note: localhost is a hostname that refers to the machine you are working on
 ---
 
-To access this challenge, we need to login via ssh using bandit13 as the username and the password obtained in the last round. Here if we look into the home directory we find a RSA key. As the challenge requires us to be user bandit14, we must onnect using ssh on our localhost and use the RSA key given to us as the identification.
-Once we are logged in as bandit14 we can read the file easily.
+To access this challenge, we need to login via ssh using bandit13 as the username and the password obtained in the last round. Here if we look into the home directory we find a RSA key. As the challenge requires us to be user bandit14, we must connect using ssh on our localhost and use the RSA key given to us as the identification.
+Once we are logged in as bandit14, we can read the file easily.
 
 ```
 bandit13@bandit:~$ ls
